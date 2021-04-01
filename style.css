@@ -194,32 +194,32 @@
 
 /* soluzione esercizio 13 */
 .ex-13-button:hover > div.ex-13-top-white {
-  animation: es13_top 4s linear;
+  animation: es13_top 2s linear;
 }
 .ex-13-button:hover > div.ex-13-bottom-white {
-  animation: es13_bottom 4s linear;
+  animation: es13_bottom 2s linear;
 }
 @keyframes es13_top {
   from {
     top: -10px;
     left: 10%;
   }
-  20% {
+  25% {
     top: -10px;
     left: 100%;
     transform: translateX(-50%);
   }
-  40% {
+  35% {
     top: 100%;
     left: 100%;
     transform: translate(-50%, -50%);
   }
-  60% {
+  75% {
     top: 100%;
     left: 0%;
     transform: translate(-50%, -50%);
   }
-  80% {
+  85% {
     top: -10px;
     left: 0%;
     transform: translateX(-50%);
@@ -234,25 +234,23 @@
     bottom: -10px;
     right: 20%;
   }
-  20% {
+  25% {
     bottom: -10px;
     right: 100%;
-    transform: translateX(-50%);
+    transform: translateX(+50%);
   }
-  40% {
-    bottom: 100%;
+  35% {
+    bottom: calc(100% - 10px);
     right: 100%;
-    transform: translate(-50%, -50%);
+    transform: translateX(+50%);
   }
-  60% {
-    bottom: 100%;
+  75% {
+    bottom: calc(100% - 10px);
     right: 0%;
-    transform: translate(-50%, -50%);
   }
-  80% {
+  85% {
     bottom: -10px;
     right: 0%;
-    transform: translateX(-50%);
   }
   to {
     bottom: -10px;
