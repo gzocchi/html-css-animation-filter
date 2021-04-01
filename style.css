@@ -71,6 +71,12 @@
   transition-duration: 1s;
   filter: grayscale(80%) sepia(40%);
 }
+/* soluzione esercizio 8 */
+.ex-8-img:hover {
+  transition-duration: 1s;
+  border-radius: 10px;
+  filter: grayscale(80%) sepia(40%);
+}
 
 .ex-9-img {
   margin: 50px 100px;
