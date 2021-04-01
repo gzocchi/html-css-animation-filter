@@ -161,3 +161,31 @@
   width: 60px;
   height: 20px;
 }
+
+/* soluzione esercizio 12 */
+.ex-12-button:hover > div {
+  animation: es12_top 2s linear;
+  animation: es12_bottom 2s linear;
+}
+@keyframes es12_top {
+  from {
+    left: 10%;
+  }
+  50% {
+    left: 70%;
+  }
+  to {
+    left: 10%;
+  }
+}
+@keyframes es12_bottom {
+  from {
+    right: 20%;
+  }
+  50% {
+    right: 70%;
+  }
+  to {
+    right: 20%;
+  }
+}
