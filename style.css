@@ -64,7 +64,12 @@
 }
 /* soluzione esercizio 6 */
 .ex-6-img:hover {
-  filter: grayscale(1);
+  filter: grayscale(100%);
+}
+/* soluzione esercizio 7 */
+.ex-7-img:hover {
+  transition-duration: 1s;
+  filter: grayscale(80%) sepia(40%);
 }
 
 .ex-9-img {
