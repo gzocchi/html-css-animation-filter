@@ -82,6 +82,15 @@
   margin: 50px 100px;
   width: 400px;
 }
+/* soluzione esercizio 9 */
+.ex-9-img:hover {
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  border-radius: 10px;
+  filter: grayscale(80%) sepia(40%);
+  transform: scale(1.5);
+}
+
 .ex-10-icon {
   font-size: 60px;
 }
